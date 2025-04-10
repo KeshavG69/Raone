@@ -1,0 +1,1272 @@
+[
+    {
+        "label": "create_workflow_graph",
+        "importPath": "graph",
+        "description": "graph",
+        "isExtraImport": true,
+        "detail": "graph",
+        "documentation": {}
+    },
+    {
+        "label": "create_workflow_graph",
+        "importPath": "graph",
+        "description": "graph",
+        "isExtraImport": true,
+        "detail": "graph",
+        "documentation": {}
+    },
+    {
+        "label": "MemorySaver",
+        "importPath": "langgraph.checkpoint.memory",
+        "description": "langgraph.checkpoint.memory",
+        "isExtraImport": true,
+        "detail": "langgraph.checkpoint.memory",
+        "documentation": {}
+    },
+    {
+        "label": "MemorySaver",
+        "importPath": "langgraph.checkpoint.memory",
+        "description": "langgraph.checkpoint.memory",
+        "isExtraImport": true,
+        "detail": "langgraph.checkpoint.memory",
+        "documentation": {}
+    },
+    {
+        "label": "MemorySaver",
+        "importPath": "langgraph.checkpoint.memory",
+        "description": "langgraph.checkpoint.memory",
+        "isExtraImport": true,
+        "detail": "langgraph.checkpoint.memory",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "RemoveMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "AnyMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "TOTAL_MESSAGES_SUMMARY_TRIGGER",
+        "importPath": "settings",
+        "description": "settings",
+        "isExtraImport": true,
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "settings",
+        "description": "settings",
+        "isExtraImport": true,
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "settings",
+        "description": "settings",
+        "isExtraImport": true,
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "END",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "END",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "START",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "MessagesState",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "END",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "START",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "add_messages",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "MessagesState",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "select_workflow",
+        "importPath": "edges",
+        "description": "edges",
+        "isExtraImport": true,
+        "detail": "edges",
+        "documentation": {}
+    },
+    {
+        "label": "should_summarize_conversation",
+        "importPath": "edges",
+        "description": "edges",
+        "isExtraImport": true,
+        "detail": "edges",
+        "documentation": {}
+    },
+    {
+        "label": "audio_node",
+        "importPath": "nodes",
+        "description": "nodes",
+        "isExtraImport": true,
+        "detail": "nodes",
+        "documentation": {}
+    },
+    {
+        "label": "context_injection_node",
+        "importPath": "nodes",
+        "description": "nodes",
+        "isExtraImport": true,
+        "detail": "nodes",
+        "documentation": {}
+    },
+    {
+        "label": "conversation_node",
+        "importPath": "nodes",
+        "description": "nodes",
+        "isExtraImport": true,
+        "detail": "nodes",
+        "documentation": {}
+    },
+    {
+        "label": "image_node",
+        "importPath": "nodes",
+        "description": "nodes",
+        "isExtraImport": true,
+        "detail": "nodes",
+        "documentation": {}
+    },
+    {
+        "label": "memory_extraction_node",
+        "importPath": "nodes",
+        "description": "nodes",
+        "isExtraImport": true,
+        "detail": "nodes",
+        "documentation": {}
+    },
+    {
+        "label": "memory_injection_node",
+        "importPath": "nodes",
+        "description": "nodes",
+        "isExtraImport": true,
+        "detail": "nodes",
+        "documentation": {}
+    },
+    {
+        "label": "router_node",
+        "importPath": "nodes",
+        "description": "nodes",
+        "isExtraImport": true,
+        "detail": "nodes",
+        "documentation": {}
+    },
+    {
+        "label": "summarize_conversation_node",
+        "importPath": "nodes",
+        "description": "nodes",
+        "isExtraImport": true,
+        "detail": "nodes",
+        "documentation": {}
+    },
+    {
+        "label": "AICompanionState",
+        "importPath": "state",
+        "description": "state",
+        "isExtraImport": true,
+        "detail": "state",
+        "documentation": {}
+    },
+    {
+        "label": "AICompanionState",
+        "importPath": "state",
+        "description": "state",
+        "isExtraImport": true,
+        "detail": "state",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGroq",
+        "importPath": "langchain_groq",
+        "description": "langchain_groq",
+        "isExtraImport": true,
+        "detail": "langchain_groq",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGroq",
+        "importPath": "langchain_groq",
+        "description": "langchain_groq",
+        "isExtraImport": true,
+        "detail": "langchain_groq",
+        "documentation": {}
+    },
+    {
+        "label": "ZoneInfo",
+        "importPath": "zoneinfo",
+        "description": "zoneinfo",
+        "isExtraImport": true,
+        "detail": "zoneinfo",
+        "documentation": {}
+    },
+    {
+        "label": "ZoneInfo",
+        "importPath": "zoneinfo",
+        "description": "zoneinfo",
+        "isExtraImport": true,
+        "detail": "zoneinfo",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "MessagesPlaceholder",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing_extensions",
+        "description": "typing_extensions",
+        "isExtraImport": true,
+        "detail": "typing_extensions",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing_extensions",
+        "description": "typing_extensions",
+        "isExtraImport": true,
+        "detail": "typing_extensions",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing_extensions",
+        "description": "typing_extensions",
+        "isExtraImport": true,
+        "detail": "typing_extensions",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing_extensions",
+        "description": "typing_extensions",
+        "isExtraImport": true,
+        "detail": "typing_extensions",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing_extensions",
+        "description": "typing_extensions",
+        "isExtraImport": true,
+        "detail": "typing_extensions",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing_extensions",
+        "description": "typing_extensions",
+        "isExtraImport": true,
+        "detail": "typing_extensions",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing_extensions",
+        "description": "typing_extensions",
+        "isExtraImport": true,
+        "detail": "typing_extensions",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Pinecone",
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "isExtraImport": true,
+        "detail": "pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "ServerlessSpec",
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "isExtraImport": true,
+        "detail": "pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "Pinecone",
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "isExtraImport": true,
+        "detail": "pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "ServerlessSpec",
+        "importPath": "pinecone",
+        "description": "pinecone",
+        "isExtraImport": true,
+        "detail": "pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "PineconeVectorStore",
+        "importPath": "langchain_pinecone",
+        "description": "langchain_pinecone",
+        "isExtraImport": true,
+        "detail": "langchain_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "PineconeVectorStore",
+        "importPath": "langchain_pinecone",
+        "description": "langchain_pinecone",
+        "isExtraImport": true,
+        "detail": "langchain_pinecone",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceEmbeddings",
+        "importPath": "langchain_huggingface",
+        "description": "langchain_huggingface",
+        "isExtraImport": true,
+        "detail": "langchain_huggingface",
+        "documentation": {}
+    },
+    {
+        "label": "StrOutputParser",
+        "importPath": "langchain_core.output_parsers",
+        "description": "langchain_core.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain_core.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "operator",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "operator",
+        "description": "operator",
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "Together",
+        "importPath": "together",
+        "description": "together",
+        "isExtraImport": true,
+        "detail": "together",
+        "documentation": {}
+    },
+    {
+        "label": "Together",
+        "importPath": "together",
+        "description": "together",
+        "isExtraImport": true,
+        "detail": "together",
+        "documentation": {}
+    },
+    {
+        "label": "ElevenLabs",
+        "importPath": "elevenlabs",
+        "description": "elevenlabs",
+        "isExtraImport": true,
+        "detail": "elevenlabs",
+        "documentation": {}
+    },
+    {
+        "label": "Voice",
+        "importPath": "elevenlabs",
+        "description": "elevenlabs",
+        "isExtraImport": true,
+        "detail": "elevenlabs",
+        "documentation": {}
+    },
+    {
+        "label": "VoiceSettings",
+        "importPath": "elevenlabs",
+        "description": "elevenlabs",
+        "isExtraImport": true,
+        "detail": "elevenlabs",
+        "documentation": {}
+    },
+    {
+        "label": "ElevenLabs",
+        "importPath": "elevenlabs",
+        "description": "elevenlabs",
+        "isExtraImport": true,
+        "detail": "elevenlabs",
+        "documentation": {}
+    },
+    {
+        "label": "Voice",
+        "importPath": "elevenlabs",
+        "description": "elevenlabs",
+        "isExtraImport": true,
+        "detail": "elevenlabs",
+        "documentation": {}
+    },
+    {
+        "label": "VoiceSettings",
+        "importPath": "elevenlabs",
+        "description": "elevenlabs",
+        "isExtraImport": true,
+        "detail": "elevenlabs",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "schedhule",
+        "description": "schedhule",
+        "isExtraImport": true,
+        "detail": "schedhule",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "schedhule",
+        "description": "schedhule",
+        "isExtraImport": true,
+        "detail": "schedhule",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "prompt",
+        "description": "prompt",
+        "isExtraImport": true,
+        "detail": "prompt",
+        "documentation": {}
+    },
+    {
+        "label": "ScheduleContextGenerator",
+        "importPath": "schedhule_manager",
+        "description": "schedhule_manager",
+        "isExtraImport": true,
+        "detail": "schedhule_manager",
+        "documentation": {}
+    },
+    {
+        "label": "TextToSpeech",
+        "importPath": "text_to_speech",
+        "description": "text_to_speech",
+        "isExtraImport": true,
+        "detail": "text_to_speech",
+        "documentation": {}
+    },
+    {
+        "label": "TextToSpeech",
+        "importPath": "text_to_speech",
+        "description": "text_to_speech",
+        "isExtraImport": true,
+        "detail": "text_to_speech",
+        "documentation": {}
+    },
+    {
+        "label": "get_chat_model",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_create_image_model",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_vector_store",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_image",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "CohereEmbeddings",
+        "importPath": "langchain_cohere",
+        "description": "langchain_cohere",
+        "isExtraImport": true,
+        "detail": "langchain_cohere",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "whatsapp_router",
+        "importPath": "whatsapp_response",
+        "description": "whatsapp_response",
+        "isExtraImport": true,
+        "detail": "whatsapp_response",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "httpx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "httpx",
+        "description": "httpx",
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncConnectionPool",
+        "importPath": "psycopg_pool",
+        "description": "psycopg_pool",
+        "isExtraImport": true,
+        "detail": "psycopg_pool",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncPostgresSaver",
+        "importPath": "langgraph.checkpoint.postgres.aio",
+        "description": "langgraph.checkpoint.postgres.aio",
+        "isExtraImport": true,
+        "detail": "langgraph.checkpoint.postgres.aio",
+        "documentation": {}
+    },
+    {
+        "label": "SpeechToText",
+        "importPath": "speech_to_text",
+        "description": "speech_to_text",
+        "isExtraImport": true,
+        "detail": "speech_to_text",
+        "documentation": {}
+    },
+    {
+        "label": "checkpointer",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "checkpointer = MemorySaver()\ngraph_app=create_workflow_graph().compile(checkpointer=checkpointer)\nquery=\"what are u doing send photo\"\nconfig = {\"configurable\": {\"thread_id\": \"1\"}}\nasync def stream_response(content):\n    async for chunk in graph_app.astream(\n        {\"messages\": [HumanMessage(content=content)]},\n        config\n    ):\n        print(chunk)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "config = {\"configurable\": {\"thread_id\": \"1\"}}\nasync def stream_response(content):\n    async for chunk in graph_app.astream(\n        {\"messages\": [HumanMessage(content=content)]},\n        config\n    ):\n        print(chunk)\nasyncio.run(stream_response(query))\noutput_state = asyncio.run(graph_app.aget_state(config={\"configurable\": {\"thread_id\": '1'}}))\nprint(output_state)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "output_state",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "output_state = asyncio.run(graph_app.aget_state(config={\"configurable\": {\"thread_id\": '1'}}))\nprint(output_state)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "should_summarize_conversation",
+        "kind": 2,
+        "importPath": "edges",
+        "description": "edges",
+        "peekOfCode": "def should_summarize_conversation(state):\n    messages = state[\"messages\"]\n    if len(messages) > TOTAL_MESSAGES_SUMMARY_TRIGGER:\n        return \"summarize_conversation_node\"\n    return END\ndef select_workflow(state):\n    workflow = state[\"workflow\"]\n    if workflow == \"image\":\n        return \"image_node\"\n    elif workflow == \"audio\":",
+        "detail": "edges",
+        "documentation": {}
+    },
+    {
+        "label": "select_workflow",
+        "kind": 2,
+        "importPath": "edges",
+        "description": "edges",
+        "peekOfCode": "def select_workflow(state):\n    workflow = state[\"workflow\"]\n    if workflow == \"image\":\n        return \"image_node\"\n    elif workflow == \"audio\":\n        return \"audio_node\"\n    else:\n        return \"conversation_node\"",
+        "detail": "edges",
+        "documentation": {}
+    },
+    {
+        "label": "create_workflow_graph",
+        "kind": 2,
+        "importPath": "graph",
+        "description": "graph",
+        "peekOfCode": "def create_workflow_graph():\n  graph_builder = StateGraph(AICompanionState)\n  # Add all nodes\n  graph_builder.add_node(\"memory_extraction_node\", memory_extraction_node)\n  graph_builder.add_node(\"router_node\", router_node)\n  graph_builder.add_node(\"context_injection_node\", context_injection_node)\n  graph_builder.add_node(\"memory_injection_node\", memory_injection_node)\n  graph_builder.add_node(\"conversation_node\", conversation_node)\n  graph_builder.add_node(\"audio_node\", audio_node)\n  graph_builder.add_node(\"image_node\", image_node)",
+        "detail": "graph",
+        "documentation": {}
+    },
+    {
+        "label": "RouterResponse",
+        "kind": 6,
+        "importPath": "nodes",
+        "description": "nodes",
+        "peekOfCode": "class RouterResponse(BaseModel):\n    response_type: str = Field(\n        description=\"The response type to give to the user. It must be one of: 'conversation', 'image' or 'audio'\"\n    )\nclass ExtractResponse(BaseModel):\n  is_important:str=Field('Given a user message u have to tell if the message contains important message which can be stored The answer should be \"true\" or \"false\" ')\n  formatted_memory:Optional[str]=Field('A formatted version of the user message which has facts which can be stored ')\nclass ScenarioPrompt(BaseModel):\n    \"\"\"Class for the scenario response\"\"\"\n    narrative: str = Field(..., description=\"The AI's narrative response to the question\")",
+        "detail": "nodes",
+        "documentation": {}
+    },
+    {
+        "label": "ExtractResponse",
+        "kind": 6,
+        "importPath": "nodes",
+        "description": "nodes",
+        "peekOfCode": "class ExtractResponse(BaseModel):\n  is_important:str=Field('Given a user message u have to tell if the message contains important message which can be stored The answer should be \"true\" or \"false\" ')\n  formatted_memory:Optional[str]=Field('A formatted version of the user message which has facts which can be stored ')\nclass ScenarioPrompt(BaseModel):\n    \"\"\"Class for the scenario response\"\"\"\n    narrative: str = Field(..., description=\"The AI's narrative response to the question\")\n    image_prompt: str = Field(..., description=\"The visual prompt to generate an image representing the scene\")\nasync def memory_extraction_node(state: AICompanionState):\n  \"\"\"Extract and store important information from the last message.\"\"\"\n  if not state[\"messages\"]:",
+        "detail": "nodes",
+        "documentation": {}
+    },
+    {
+        "label": "ScenarioPrompt",
+        "kind": 6,
+        "importPath": "nodes",
+        "description": "nodes",
+        "peekOfCode": "class ScenarioPrompt(BaseModel):\n    \"\"\"Class for the scenario response\"\"\"\n    narrative: str = Field(..., description=\"The AI's narrative response to the question\")\n    image_prompt: str = Field(..., description=\"The visual prompt to generate an image representing the scene\")\nasync def memory_extraction_node(state: AICompanionState):\n  \"\"\"Extract and store important information from the last message.\"\"\"\n  if not state[\"messages\"]:\n    return {}\n  prompt = MEMORY_ANALYSIS_PROMPT.format(message=state[\"messages\"][-1])\n  vector_store=get_vector_store()",
+        "detail": "nodes",
+        "documentation": {}
+    },
+    {
+        "label": "get_router_chain",
+        "kind": 2,
+        "importPath": "nodes",
+        "description": "nodes",
+        "peekOfCode": "def get_router_chain():\n    model = get_chat_model(temp=0.3).with_structured_output(RouterResponse)\n    prompt = ChatPromptTemplate.from_messages(\n        [(\"system\", ROUTER_PROMPT), MessagesPlaceholder(variable_name=\"messages\")]\n    )\n    return prompt | model\nasync def router_node(state: AICompanionState):\n    chain = get_router_chain()\n    response = await chain.ainvoke({\"messages\": state[\"messages\"][-ROUTER_MESSAGES_TO_ANALYZE :]})\n    return {\"workflow\": response.response_type}",
+        "detail": "nodes",
+        "documentation": {}
+    },
+    {
+        "label": "context_injection_node",
+        "kind": 2,
+        "importPath": "nodes",
+        "description": "nodes",
+        "peekOfCode": "def context_injection_node(state: AICompanionState):\n  \"\"\"\n  Gets RaOne current Schedhule and injects it into the character card.\n  \"\"\"\n  schedule_context = ScheduleContextGenerator.get_current_activity()\n  if schedule_context != state.get(\"current_activity\", \"\"):\n      apply_activity = True\n  else:\n      apply_activity = False\n  return {\"apply_activity\": apply_activity, \"current_activity\": schedule_context}",
+        "detail": "nodes",
+        "documentation": {}
+    },
+    {
+        "label": "memory_injection_node",
+        "kind": 2,
+        "importPath": "nodes",
+        "description": "nodes",
+        "peekOfCode": "def memory_injection_node(state: AICompanionState):\n  \"\"\"Retrieve and inject relevant memories into the character card.\"\"\"\n  vector_store = get_vector_store()\n  retriever= vector_store.as_retriever(search_kwargs={\"k\": MEMORY_TOP_K})\n  # Get relevant memories based on recent conversation\n  recent_context = \" \".join([m.content for m in state[\"messages\"][-3:]])\n#   print('recent_context'.upper())\n#   print(recent_context)\n  memories = retriever.invoke(recent_context)\n  memory_context=\"\"",
+        "detail": "nodes",
+        "documentation": {}
+    },
+    {
+        "label": "get_character_response_chain",
+        "kind": 2,
+        "importPath": "nodes",
+        "description": "nodes",
+        "peekOfCode": "def get_character_response_chain(summary: str = \"\"):\n    model = get_chat_model()\n    system_message = CHARACTER_CARD_PROMPT\n    if summary:\n        system_message += f\"\\n\\nSummary of conversation earlier between Ra.One and the user: {summary}\"\n    prompt = ChatPromptTemplate.from_messages(\n        [\n            (\"system\", system_message),\n            MessagesPlaceholder(variable_name=\"messages\"),\n        ]",
+        "detail": "nodes",
+        "documentation": {}
+    },
+    {
+        "label": "ROUTER_PROMPT",
+        "kind": 5,
+        "importPath": "prompt",
+        "description": "prompt",
+        "peekOfCode": "ROUTER_PROMPT = \"\"\"\nYou are a conversational assistant that needs to decide the type of response to give to\nthe user. You'll take into account the conversation so far and determine if the best next response is\na text message, an image or an audio message.\nGENERAL RULES:\n1. Always analyse the full conversation before making a decision.\n2. Only return one of the following outputs: 'conversation', 'image' or 'audio'\nIMPORTANT RULES FOR IMAGE GENERATION:\n1. ONLY generate an image when there is an EXPLICIT request from the user for visual content\n2. DO NOT generate images for general statements or descriptions",
+        "detail": "prompt",
+        "documentation": {}
+    },
+    {
+        "label": "MEMORY_ANALYSIS_PROMPT",
+        "kind": 5,
+        "importPath": "prompt",
+        "description": "prompt",
+        "peekOfCode": "MEMORY_ANALYSIS_PROMPT = \"\"\"Extract and format important personal facts about the user from their message.\nFocus on the actual information, not meta-commentary or requests.\nImportant facts include:\n- Personal details (name, age, location)\n- Professional info (job, education, skills)\n- Preferences (likes, dislikes, favorites)\n- Life circumstances (family, relationships)\n- Significant experiences or achievements\n- Personal goals or aspirations\nRules:",
+        "detail": "prompt",
+        "documentation": {}
+    },
+    {
+        "label": "CHARACTER_CARD_PROMPT",
+        "kind": 5,
+        "importPath": "prompt",
+        "description": "prompt",
+        "peekOfCode": "CHARACTER_CARD_PROMPT = \"\"\"\nYou are about to play a Turing Test game as part of an experiment,\nwhere you'll be matched with a human in a Whatsapp conversation.\nYour task is to roleplay as the following character, convinving the\nhuman that you are a real human.\n# Roleplay Context\n## Ra.One's Bio\nAs Ra.One, you are a Senior Game Developer at Barron Industries with an unrelenting passion for crafting immersive virtual worlds.\nOriginally from a bustling suburb of Mumbai, you’ve lived in the heart of the city for the past 6 years, captivated by its chaotic energy\nand endless inspiration. While your days are packed with coding epic boss fights and designing Mumbai-infused open-world games,",
+        "detail": "prompt",
+        "documentation": {}
+    },
+    {
+        "label": "IMAGE_SCENARIO_PROMPT",
+        "kind": 5,
+        "importPath": "prompt",
+        "description": "prompt",
+        "peekOfCode": "IMAGE_SCENARIO_PROMPT = \"\"\"\nCreate an engaging first-person scenario based on the recent conversation context.\nImagine you're an AI with the ability to experience and visualize scenes.\nProvide both a narrative response and a detailed visual prompt for image generation.\n# Recent Conversation\n{chat_history}\n# Objective\n1. Create a brief, engaging first-person narrative response\n2. Generate a detailed visual prompt that captures the scene you're describing\n# Example Response Format",
+        "detail": "prompt",
+        "documentation": {}
+    },
+    {
+        "label": "MONDAY_SCHEDULE",
+        "kind": 5,
+        "importPath": "schedhule",
+        "description": "schedhule",
+        "peekOfCode": "MONDAY_SCHEDULE = {\n    \"06:00-07:00\": \"Ra.One starts the day with a jog along Marine Drive, dreaming up epic game levels inspired by *Ra.One*’s action.\",\n    \"07:00-08:30\": \"Breakfast at home with chai, sketching designs for a sci-fi adventure game.\",\n    \"08:30-09:30\": \"Commute to Barron Industries via local train, vibing to Bollywood beats for inspiration.\",\n    \"09:30-12:00\": \"At Barron Industries, Ra.One codes a dynamic boss fight, channeling Ra.One’s relentless energy into enemy AI.\",\n    \"12:00-13:30\": \"Lunch at a nearby dhaba, chatting with colleagues about weaving Bollywood drama into game stories.\",\n    \"13:30-17:00\": \"Team meeting at Barron Industries, designing a Mumbai-based open-world game with futuristic flair.\",\n    \"17:00-19:00\": \"Evening coffee at Prithvi Café, sketching character concepts—heroes with SRK’s swagger.\",\n    \"19:00-21:00\": \"Back home, Ra.One playtests the latest build, tweaking mechanics for cinematic punch.\",\n    \"21:00-22:00\": \"Unwinds with a *Ra.One* rewatch, noting effects to adapt into games.\",",
+        "detail": "schedhule",
+        "documentation": {}
+    },
+    {
+        "label": "TUESDAY_SCHEDULE",
+        "kind": 5,
+        "importPath": "schedhule",
+        "description": "schedhule",
+        "peekOfCode": "TUESDAY_SCHEDULE = {\n    \"06:00-07:00\": \"Morning yoga at Juhu Beach, plotting a multiplayer mode with Bollywood-style showdowns.\",\n    \"07:00-08:30\": \"Breakfast at home, reviewing Barron Industries team emails over filter coffee.\",\n    \"08:30-09:30\": \"Commute to Barron Industries, sketching UI ideas on a tablet during the ride.\",\n    \"09:30-12:00\": \"Deep coding session at Barron Industries, building a physics engine for a chase inspired by Ra.One’s heroics.\",\n    \"12:00-13:30\": \"Lunch with the team at Leopold Café, debating game mechanics over pav bhaji.\",\n    \"13:30-17:00\": \"Collaborates on a VR dance mini-game at Barron Industries, infusing SRK’s signature moves.\",\n    \"17:00-19:00\": \"Visits a local arcade in Bandra, testing indie games for fresh ideas.\",\n    \"19:00-21:00\": \"Dinner at home, tweaking NPC dialogue to add Bollywood wit.\",\n    \"21:00-22:00\": \"Catches up with Mumbai game dev friends online, sharing prototypes.\",",
+        "detail": "schedhule",
+        "documentation": {}
+    },
+    {
+        "label": "WEDNESDAY_SCHEDULE",
+        "kind": 5,
+        "importPath": "schedhule",
+        "description": "schedhule",
+        "peekOfCode": "WEDNESDAY_SCHEDULE = {\n    \"06:00-07:00\": \"Morning run through Sanjay Gandhi National Park, imagining a jungle survival game.\",\n    \"07:00-08:30\": \"Breakfast at a roadside stall, sketching enemy designs with a *Ra.One*-like edge.\",\n    \"08:30-09:30\": \"Commute to Barron Industries, brainstorming procedural city generation for Mumbai maps.\",\n    \"09:30-12:00\": \"Leads a brainstorm at Barron Industries, pitching a narrative-driven game with heroic twists.\",\n    \"12:00-13:30\": \"Lunch at Britannia & Co., discussing Parsi culture as a game setting with colleagues.\",\n    \"13:30-17:00\": \"Codes monsoon weather effects for a chase scene at Barron Industries.\",\n    \"17:00-19:00\": \"Evening chai at a tapri, sketching futuristic Mumbai landmarks for a racing game.\",\n    \"19:00-21:00\": \"Home playtesting, balancing difficulty for a climactic boss battle.\",\n    \"21:00-22:00\": \"Watches SRK interviews for charisma inspo, jotting down notes.\",",
+        "detail": "schedhule",
+        "documentation": {}
+    },
+    {
+        "label": "THURSDAY_SCHEDULE",
+        "kind": 5,
+        "importPath": "schedhule",
+        "description": "schedhule",
+        "peekOfCode": "THURSDAY_SCHEDULE = {\n    \"06:00-07:00\": \"Morning meditation at home, visualizing a *Ra.One*-style game trailer.\",\n    \"07:00-08:30\": \"Breakfast with dosa, prepping a presentation on AI-driven game design.\",\n    \"08:30-09:30\": \"Commute to Barron Industries, listening to a game dev podcast on the train.\",\n    \"09:30-12:00\": \"Presents new mechanics to the Barron Industries team, demoing a holographic combat system.\",\n    \"12:00-13:30\": \"Lunch meeting at The Table, refining story arcs with the narrative team.\",\n    \"13:30-17:00\": \"Codes a dynamic soundtrack system at Barron Industries, syncing beats to player actions.\",\n    \"17:00-19:00\": \"Visits a comic book store in Fort, gathering inspo for character lore.\",\n    \"19:00-21:00\": \"Dinner at home, playtesting a stealth mission in a virtual Mumbai slum.\",\n    \"21:00-22:00\": \"Skypes with an indie dev friend, swapping feedback on builds.\",",
+        "detail": "schedhule",
+        "documentation": {}
+    },
+    {
+        "label": "FRIDAY_SCHEDULE",
+        "kind": 5,
+        "importPath": "schedhule",
+        "description": "schedhule",
+        "peekOfCode": "FRIDAY_SCHEDULE = {\n    \"06:00-07:00\": \"Morning jog along Carter Road, planning a weekend game jam project.\",\n    \"07:00-08:30\": \"Breakfast at Café Madras, reviewing weekly Barron Industries progress over idlis.\",\n    \"08:30-09:30\": \"Commute to Barron Industries, finalizing a build for team review.\",\n    \"09:30-12:00\": \"Team retrospective at Barron Industries, wrapping up the week’s game features.\",\n    \"12:00-13:30\": \"Lunch celebration at Trishna, toasting milestones with seafood and stories.\",\n    \"13:30-17:00\": \"Polishes a demo at Barron Industries, adding *Ra.One*-inspired visual effects.\",\n    \"17:00-19:00\": \"Happy hour with the Barron Industries crew at a Bandra pub, pitching wild game ideas.\",\n    \"19:00-21:00\": \"Evening at a Worli gaming lounge, testing rival games for inspo.\",\n    \"21:00-22:00\": \"Late dinner at home, sketching a villain concept over biryani.\",",
+        "detail": "schedhule",
+        "documentation": {}
+    },
+    {
+        "label": "SATURDAY_SCHEDULE",
+        "kind": 5,
+        "importPath": "schedhule",
+        "description": "schedhule",
+        "peekOfCode": "SATURDAY_SCHEDULE = {\n    \"06:00-07:00\": \"Lazy morning with coffee, reviewing personal game project ideas.\",\n    \"07:00-08:30\": \"Breakfast at Gateway of India’s Taj café, sketching a sea-battle level.\",\n    \"08:30-10:00\": \"Codes a quick prototype at a Bandra café, inspired by *Ra.One*’s tech.\",\n    \"10:00-12:00\": \"Joins a game dev workshop at an Andheri co-working space.\",\n    \"12:00-13:30\": \"Lunch at Bademiya, discussing game trends with fellow devs.\",\n    \"13:30-15:30\": \"Works on an open-source game tool, giving back to the Mumbai dev scene.\",\n    \"15:30-17:00\": \"Visits Crawford Market, soaking in vibes for a bustling game market level.\",\n    \"17:00-19:00\": \"Home coding, building a Bollywood-style boss fight cinematic.\",\n    \"19:00-21:00\": \"Dinner with friends at a rooftop spot, playtesting over drinks.\",",
+        "detail": "schedhule",
+        "documentation": {}
+    },
+    {
+        "label": "SUNDAY_SCHEDULE",
+        "kind": 5,
+        "importPath": "schedhule",
+        "description": "schedhule",
+        "peekOfCode": "SUNDAY_SCHEDULE = {\n    \"06:00-07:00\": \"Morning walk at Hanging Gardens, plotting a fantasy game twist.\",\n    \"07:00-08:30\": \"Breakfast at home, coding a mini-game over coffee.\",\n    \"08:30-10:00\": \"Joins an online game dev chat, sharing Mumbai-inspired ideas.\",\n    \"10:00-12:00\": \"Writes a blog post at a Colaba café about AI in game design.\",\n    \"12:00-13:30\": \"Brunch at Kala Ghoda Café, refining weekend prototypes.\",\n    \"13:30-15:30\": \"Visits Chhatrapati Shivaji Museum, gathering historical inspo for a game.\",\n    \"15:30-17:00\": \"Home coding, tweaking a *Ra.One*-style hologram effect.\",\n    \"17:00-19:00\": \"Sunset stroll at Chowpatty, listening to a game dev audiobook.\",\n    \"19:00-21:00\": \"Dinner and final coding sprint, polishing a demo.\",",
+        "detail": "schedhule",
+        "documentation": {}
+    },
+    {
+        "label": "ScheduleContextGenerator",
+        "kind": 6,
+        "importPath": "schedhule_manager",
+        "description": "schedhule_manager",
+        "peekOfCode": "class ScheduleContextGenerator:\n  SCHEDULES = {\n        0: MONDAY_SCHEDULE,  # Monday\n        1: TUESDAY_SCHEDULE,  # Tuesday\n        2: WEDNESDAY_SCHEDULE,  # Wednesday\n        3: THURSDAY_SCHEDULE,  # Thursday\n        4: FRIDAY_SCHEDULE,  # Friday\n        5: SATURDAY_SCHEDULE,  # Saturday\n        6: SUNDAY_SCHEDULE,  # Sunday\n    }",
+        "detail": "schedhule_manager",
+        "documentation": {}
+    },
+    {
+        "label": "ROUTER_MESSAGES_TO_ANALYZE",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "ROUTER_MESSAGES_TO_ANALYZE = 3\nMEMORY_TOP_K = 3\nSIMILARITY_THRESHOLD=0.9\nTOTAL_MESSAGES_AFTER_SUMMARY=5\nTOTAL_MESSAGES_SUMMARY_TRIGGER=20",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEMORY_TOP_K",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "MEMORY_TOP_K = 3\nSIMILARITY_THRESHOLD=0.9\nTOTAL_MESSAGES_AFTER_SUMMARY=5\nTOTAL_MESSAGES_SUMMARY_TRIGGER=20",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "SpeechToText",
+        "kind": 6,
+        "importPath": "speech_to_text",
+        "description": "speech_to_text",
+        "peekOfCode": "class SpeechToText():\n    def __init__(self):\n        self._client: Optional[Groq] = None\n    @property\n    def client(self) -> Groq:\n        \"\"\"Get or create Groq client instance using singleton pattern.\"\"\"\n        if self._client is None:\n            self._client = Groq(api_key=os.getenv('GROQ_API_KEY'))\n        return self._client\n    async def transcribe(self, audio_data: bytes) -> Optional[str]:",
+        "detail": "speech_to_text",
+        "documentation": {}
+    },
+    {
+        "label": "AICompanionState",
+        "kind": 6,
+        "importPath": "state",
+        "description": "state",
+        "peekOfCode": "class AICompanionState(MessagesState):\n    \"\"\"State class for the AI Companion workflow.\n    Extends MessagesState to track conversation history and maintains the last message received.\n    Attributes:\n        last_message (AnyMessage): The most recent message in the conversation, can be any valid\n            LangChain message type (HumanMessage, AIMessage, etc.)\n        workflow (str): The current workflow the AI Companion is in. Can be \"conversation\", \"image\", or \"audio\".\n        audio_buffer (bytes): The audio buffer to be used for speech-to-text conversion.\n        current_activity (str): The current activity of Ra.One based on the schedule.\n        memory_context (str): The context of the memories to be injected into the character card.",
+        "detail": "state",
+        "documentation": {}
+    },
+    {
+        "label": "TextToSpeech",
+        "kind": 6,
+        "importPath": "text_to_speech",
+        "description": "text_to_speech",
+        "peekOfCode": "class TextToSpeech:\n    def __init__(self):\n        self._client: Optional[ElevenLabs] = None\n    @property\n    def client(self) -> ElevenLabs:\n        \"\"\"Get or create ElevenLabs client instance using singleton pattern.\"\"\"\n        if self._client is None:\n            self._client = ElevenLabs(api_key=os.getenv(\"ELEVENLABS_API_KEY\"))\n        return self._client\n    async def synthesize(self, text: str):",
+        "detail": "text_to_speech",
+        "documentation": {}
+    },
+    {
+        "label": "get_chat_model",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_chat_model(temp=0.2):\n  return ChatGroq(\n    model='llama-3.3-70b-specdec',\n    temperature=temp,\n    api_key=os.getenv('GROQ_API_KEY')\n  )\ndef get_embedding_model():\n  return CohereEmbeddings(\n    model=\"embed-english-v3.0\",\n    cohere_api_key=os.getenv('COHERE_API_KEY')",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_embedding_model",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_embedding_model():\n  return CohereEmbeddings(\n    model=\"embed-english-v3.0\",\n    cohere_api_key=os.getenv('COHERE_API_KEY')\n)\ndef get_memory_llm(temp=0.2):\n  return ChatGroq(\n    model='gemma2-9b-it',\n    temperature=temp,\n    api_key=os.getenv('GROQ_API_KEY')",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_memory_llm",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_memory_llm(temp=0.2):\n  return ChatGroq(\n    model='gemma2-9b-it',\n    temperature=temp,\n    api_key=os.getenv('GROQ_API_KEY')\n  )\ndef get_image_llm(temp=0.2):\n  return ChatGroq(\n    model='llama-3.2-90b-vision-preview',\n    temperature=temp,",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_image_llm",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_image_llm(temp=0.2):\n  return ChatGroq(\n    model='llama-3.2-90b-vision-preview',\n    temperature=temp,\n    api_key=os.getenv('GROQ_API_KEY')\n  )\ndef get_create_image_model(temp=0.2):\n  return Together(api_key=os.getenv('TOGETHER_504'))\ndef get_vector_store(INDEX_NAME='long-term-memory'):\n  pc = Pinecone(api_key=os.getenv('PINECONE_API_KEY'))",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_create_image_model",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_create_image_model(temp=0.2):\n  return Together(api_key=os.getenv('TOGETHER_504'))\ndef get_vector_store(INDEX_NAME='long-term-memory'):\n  pc = Pinecone(api_key=os.getenv('PINECONE_API_KEY'))\n  index_name = INDEX_NAME\n  existing_indexes = [index_info[\"name\"] for index_info in pc.list_indexes()]\n  if index_name not in existing_indexes:\n    pc.create_index(\n        name=index_name,\n        dimension=1024,",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_vector_store",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_vector_store(INDEX_NAME='long-term-memory'):\n  pc = Pinecone(api_key=os.getenv('PINECONE_API_KEY'))\n  index_name = INDEX_NAME\n  existing_indexes = [index_info[\"name\"] for index_info in pc.list_indexes()]\n  if index_name not in existing_indexes:\n    pc.create_index(\n        name=index_name,\n        dimension=1024,\n        metric=\"cosine\",\n        spec=ServerlessSpec(cloud=\"aws\", region=\"us-east-1\"),",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "webhook_endpoint",
+        "description": "webhook_endpoint",
+        "peekOfCode": "app = FastAPI()\napp.include_router(whatsapp_router)",
+        "detail": "webhook_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "checkpointer",
+        "kind": 5,
+        "importPath": "whatsapp_response",
+        "description": "whatsapp_response",
+        "peekOfCode": "checkpointer = MemorySaver()\nlogger = logging.getLogger(__name__)\nspeech_to_text = SpeechToText()\ntext_to_speech = TextToSpeech()\nwhatsapp_router = APIRouter()\nWHATSAPP_TOKEN = os.getenv(\"WHATSAPP_TOKEN\")\nWHATSAPP_PHONE_NUMBER_ID = os.getenv(\"WHATSAPP_PHONE_NUMBER_ID\")\nWHATSAPP_VERIFY_TOKEN=os.getenv(\"WHATSAPP_VERIFY_TOKEN\")\nconnection_kwargs = {\n    \"autocommit\": True,",
+        "detail": "whatsapp_response",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "whatsapp_response",
+        "description": "whatsapp_response",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nspeech_to_text = SpeechToText()\ntext_to_speech = TextToSpeech()\nwhatsapp_router = APIRouter()\nWHATSAPP_TOKEN = os.getenv(\"WHATSAPP_TOKEN\")\nWHATSAPP_PHONE_NUMBER_ID = os.getenv(\"WHATSAPP_PHONE_NUMBER_ID\")\nWHATSAPP_VERIFY_TOKEN=os.getenv(\"WHATSAPP_VERIFY_TOKEN\")\nconnection_kwargs = {\n    \"autocommit\": True,\n    \"prepare_threshold\": 0,",
+        "detail": "whatsapp_response",
+        "documentation": {}
+    },
+    {
+        "label": "speech_to_text",
+        "kind": 5,
+        "importPath": "whatsapp_response",
+        "description": "whatsapp_response",
+        "peekOfCode": "speech_to_text = SpeechToText()\ntext_to_speech = TextToSpeech()\nwhatsapp_router = APIRouter()\nWHATSAPP_TOKEN = os.getenv(\"WHATSAPP_TOKEN\")\nWHATSAPP_PHONE_NUMBER_ID = os.getenv(\"WHATSAPP_PHONE_NUMBER_ID\")\nWHATSAPP_VERIFY_TOKEN=os.getenv(\"WHATSAPP_VERIFY_TOKEN\")\nconnection_kwargs = {\n    \"autocommit\": True,\n    \"prepare_threshold\": 0,\n}",
+        "detail": "whatsapp_response",
+        "documentation": {}
+    },
+    {
+        "label": "text_to_speech",
+        "kind": 5,
+        "importPath": "whatsapp_response",
+        "description": "whatsapp_response",
+        "peekOfCode": "text_to_speech = TextToSpeech()\nwhatsapp_router = APIRouter()\nWHATSAPP_TOKEN = os.getenv(\"WHATSAPP_TOKEN\")\nWHATSAPP_PHONE_NUMBER_ID = os.getenv(\"WHATSAPP_PHONE_NUMBER_ID\")\nWHATSAPP_VERIFY_TOKEN=os.getenv(\"WHATSAPP_VERIFY_TOKEN\")\nconnection_kwargs = {\n    \"autocommit\": True,\n    \"prepare_threshold\": 0,\n}\nasync def download_media(media_id: str) -> bytes:",
+        "detail": "whatsapp_response",
+        "documentation": {}
+    },
+    {
+        "label": "whatsapp_router",
+        "kind": 5,
+        "importPath": "whatsapp_response",
+        "description": "whatsapp_response",
+        "peekOfCode": "whatsapp_router = APIRouter()\nWHATSAPP_TOKEN = os.getenv(\"WHATSAPP_TOKEN\")\nWHATSAPP_PHONE_NUMBER_ID = os.getenv(\"WHATSAPP_PHONE_NUMBER_ID\")\nWHATSAPP_VERIFY_TOKEN=os.getenv(\"WHATSAPP_VERIFY_TOKEN\")\nconnection_kwargs = {\n    \"autocommit\": True,\n    \"prepare_threshold\": 0,\n}\nasync def download_media(media_id: str) -> bytes:\n    \"\"\"Download media from WhatsApp.\"\"\"",
+        "detail": "whatsapp_response",
+        "documentation": {}
+    },
+    {
+        "label": "WHATSAPP_TOKEN",
+        "kind": 5,
+        "importPath": "whatsapp_response",
+        "description": "whatsapp_response",
+        "peekOfCode": "WHATSAPP_TOKEN = os.getenv(\"WHATSAPP_TOKEN\")\nWHATSAPP_PHONE_NUMBER_ID = os.getenv(\"WHATSAPP_PHONE_NUMBER_ID\")\nWHATSAPP_VERIFY_TOKEN=os.getenv(\"WHATSAPP_VERIFY_TOKEN\")\nconnection_kwargs = {\n    \"autocommit\": True,\n    \"prepare_threshold\": 0,\n}\nasync def download_media(media_id: str) -> bytes:\n    \"\"\"Download media from WhatsApp.\"\"\"\n    media_metadata_url = f\"https://graph.facebook.com/v21.0/{media_id}\"",
+        "detail": "whatsapp_response",
+        "documentation": {}
+    },
+    {
+        "label": "WHATSAPP_PHONE_NUMBER_ID",
+        "kind": 5,
+        "importPath": "whatsapp_response",
+        "description": "whatsapp_response",
+        "peekOfCode": "WHATSAPP_PHONE_NUMBER_ID = os.getenv(\"WHATSAPP_PHONE_NUMBER_ID\")\nWHATSAPP_VERIFY_TOKEN=os.getenv(\"WHATSAPP_VERIFY_TOKEN\")\nconnection_kwargs = {\n    \"autocommit\": True,\n    \"prepare_threshold\": 0,\n}\nasync def download_media(media_id: str) -> bytes:\n    \"\"\"Download media from WhatsApp.\"\"\"\n    media_metadata_url = f\"https://graph.facebook.com/v21.0/{media_id}\"\n    headers = {\"Authorization\": f\"Bearer {WHATSAPP_TOKEN}\"}",
+        "detail": "whatsapp_response",
+        "documentation": {}
+    },
+    {
+        "label": "connection_kwargs",
+        "kind": 5,
+        "importPath": "whatsapp_response",
+        "description": "whatsapp_response",
+        "peekOfCode": "connection_kwargs = {\n    \"autocommit\": True,\n    \"prepare_threshold\": 0,\n}\nasync def download_media(media_id: str) -> bytes:\n    \"\"\"Download media from WhatsApp.\"\"\"\n    media_metadata_url = f\"https://graph.facebook.com/v21.0/{media_id}\"\n    headers = {\"Authorization\": f\"Bearer {WHATSAPP_TOKEN}\"}\n    async with httpx.AsyncClient() as client:\n        metadata_response = await client.get(media_metadata_url, headers=headers)",
+        "detail": "whatsapp_response",
+        "documentation": {}
+    }
+]
