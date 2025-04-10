@@ -145,9 +145,7 @@ keshavg69-raone/
 ├── utils.py                # Utility functions
 ├── webhook_endpoint.py     # WhatsApp webhook handler
 ├── whatsapp_response.py    # Response formatting for WhatsApp
-├── memory/
-│   ├── short_term.py       # PostgreSQL memory management
-│   └── long_term.py        # Pinecone vector database interface
+
 └── .env.example            # Environment variable template
 ```
 
