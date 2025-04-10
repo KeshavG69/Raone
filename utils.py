@@ -12,12 +12,18 @@ load_dotenv()
 
 
 def get_chat_model(temp=0.2):
-
-  return ChatGroq(
-    model='llama-3.3-70b-specdec',
-    temperature=temp,
-    api_key=os.getenv('GROQ_API_KEY')
-  )
+  try:
+    return ChatGroq(
+      model='llama-3.3-70b-versatile',
+      temperature=temp,
+      api_key=os.getenv('GROQ_API_KEY')
+    )
+  except :
+    return ChatGroq(
+      model='llama-3.3-70b-specdec',
+      temperature=temp,
+      api_key=os.getenv('GROQ_API_KEY')
+    )
 
 def get_embedding_model():
   return CohereEmbeddings(
