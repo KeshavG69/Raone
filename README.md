@@ -1,6 +1,6 @@
 # 🤖 Ra.One - Human-like AI WhatsApp Assistant
 
-Ra.One is a sophisticated AI-powered WhatsApp assistant that delivers remarkably human-like conversations. Built on the [neural-maze/ava-whatsapp-agent-course](https://github.com/neural-maze/ava-whatsapp-agent-course) framework, Ra.One goes beyond basic chatbot functionality to provide natural, contextual, and emotionally intelligent interactions right in your WhatsApp conversations.
+Ra.One is a sophisticated AI-powered WhatsApp assistant that delivers remarkably human-like conversations. Built on the Langgraph framework, Ra.One goes beyond basic chatbot functionality to provide natural, contextual, and emotionally intelligent interactions right in your WhatsApp conversations.
 
 ## ✨ Human-like Capabilities
 
