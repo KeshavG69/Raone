@@ -1202,7 +1202,7 @@
         "kind": 5,
         "importPath": "whatsapp_response",
         "description": "whatsapp_response",
-        "peekOfCode": "checkpointer = MemorySaver()\nlogger = logging.getLogger(__name__)\nspeech_to_text = SpeechToText()\ntext_to_speech = TextToSpeech()\nwhatsapp_router = APIRouter()\nWHATSAPP_TOKEN = os.getenv(\"WHATSAPP_TOKEN\")\nWHATSAPP_PHONE_NUMBER_ID = os.getenv(\"WHATSAPP_PHONE_NUMBER_ID\")\nWHATSAPP_VERIFY_TOKEN=os.getenv(\"WHATSAPP_VERIFY_TOKEN\")\nconnection_kwargs = {\n    \"autocommit\": True,",
+        "peekOfCode": "checkpointer = MemorySaver()\nlogging.basicConfig(\n    level=logging.INFO,\n    format=\"%(asctime)s - %(levelname)s - %(message)s\"\n)\nlogger = logging.getLogger(__name__)\nspeech_to_text = SpeechToText()\ntext_to_speech = TextToSpeech()\nwhatsapp_router = APIRouter()\nWHATSAPP_TOKEN = os.getenv(\"WHATSAPP_TOKEN\")",
         "detail": "whatsapp_response",
         "documentation": {}
     },

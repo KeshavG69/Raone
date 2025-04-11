@@ -19,7 +19,13 @@ from settings import *
 
 load_dotenv()
 checkpointer = MemorySaver()
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
+
+
 
 speech_to_text = SpeechToText()
 text_to_speech = TextToSpeech()
@@ -150,95 +156,106 @@ async def whatsapp_handler(request: Request) -> Response:
     if request.method == "GET":
         params = request.query_params
         if params.get("hub.verify_token") == WHATSAPP_VERIFY_TOKEN:
+            logger.info("Webhook verified successfully.")
             return Response(content=params.get("hub.challenge"), status_code=200)
+        logger.warning("Verification token mismatch.")
         return Response(content="Verification token mismatch", status_code=403)
-    
-    # try:
-    data = await request.json()
-    change_value = data["entry"][0]["changes"][0]["value"]
-    if "messages" in change_value:
-        message = change_value["messages"][0]
-        from_number = message["from"]
-        session_id = from_number
-        print(session_id)
-        content = ""
-        if message["type"] == "audio":
-            content = await process_audio_message(message)
-        elif message["type"]=="image":
-            content = message.get("image", {}).get("caption", "")
-            image_bytes = await download_media(message["image"]["id"])
+
+    try:
+        data = await request.json()
+        logger.info(f"Received data: {data}")
+
+        change_value = data["entry"][0]["changes"][0]["value"]
+
+        if "messages" in change_value:
+            message = change_value["messages"][0]
+            from_number = message["from"]
+            session_id = from_number
+            logger.info(f"Incoming message from {from_number}")
+            content = ""
+
+            if message["type"] == "audio":
+                logger.info("Processing audio message")
+                content = await process_audio_message(message)
+
+            elif message["type"] == "image":
+                logger.info("Processing image message")
+                content = message.get("image", {}).get("caption", "")
+                image_bytes = await download_media(message["image"]["id"])
+                try:
+                    description = await analyze_image(
+                        image_bytes,
+                        "Please describe what you see in this image in the context of our conversation.",
+                    )
+                    content += f"\n[Image Analysis: {description}]"
+                except Exception as e:
+                    logger.warning(f"Failed to analyze image: {e}")
+
+            else:
+                logger.info("Processing text message")
+                content = message["text"]["body"]
+
             try:
-                description = await analyze_image(image_bytes,
-                    "Please describe what you see in this image in the context of our conversation.",
-                )
-                content += f"\n[Image Analysis: {description}]"
-
+                logger.info("Running graph with DB checkpointing...")
+                async with AsyncConnectionPool(
+                    conninfo=os.getenv('SHORT_TERM_MEMORY_DB_PATH'),
+                    max_size=20,
+                    kwargs=connection_kwargs,
+                ) as pool:
+                    checkpointer = AsyncPostgresSaver(pool)
+                    graph = create_workflow_graph().compile(checkpointer=checkpointer)
+                    await graph.ainvoke(
+                        {"messages": [HumanMessage(content=content)]},
+                        {"configurable": {"thread_id": session_id}},
+                    )
+                    output_state = await graph.aget_state(config={"configurable": {"thread_id": session_id}})
             except Exception as e:
-                logger.warning(f"Failed to analyze image: {e}")
-            
-        else:
-            print('text')
-            content = message["text"]["body"]
-
-        
-
-        try:
-            async with AsyncConnectionPool(conninfo=os.getenv('SHORT_TERM_MEMORY_DB_PATH'),max_size=20,kwargs=connection_kwargs,) as pool:
-                checkpointer = AsyncPostgresSaver(pool)
-                
-
-                
-                graph=create_workflow_graph().compile(checkpointer=checkpointer)
-                await graph.ainvoke(
+                logger.error(f"Error invoking graph. Retrying with fresh setup. Error: {e}")
+                async with AsyncConnectionPool(
+                    conninfo=os.getenv('SHORT_TERM_MEMORY_DB_PATH'),
+                    max_size=20,
+                    kwargs=connection_kwargs,
+                ) as pool:
+                    checkpointer = AsyncPostgresSaver(pool)
+                    await checkpointer.setup()
+                    graph = create_workflow_graph().compile(checkpointer=checkpointer)
+                    await graph.ainvoke(
                         {"messages": [HumanMessage(content=content)]},
                         {"configurable": {"thread_id": session_id}},
                     )
-                print('graph ended')
-                output_state = await graph.aget_state(config={"configurable": {"thread_id": session_id}})
-        except:
-            async with AsyncConnectionPool(conninfo=os.getenv('SHORT_TERM_MEMORY_DB_PATH'),max_size=20,kwargs=connection_kwargs,) as pool:
-                checkpointer = AsyncPostgresSaver(pool)
-                await checkpointer.setup()
+                    output_state = await graph.aget_state(config={"configurable": {"thread_id": session_id}})
 
-                
-                graph=create_workflow_graph().compile(checkpointer=checkpointer)
-                await graph.ainvoke(
-                        {"messages": [HumanMessage(content=content)]},
-                        {"configurable": {"thread_id": session_id}},
-                    )
-                print('graph ended')
-                output_state = await graph.aget_state(config={"configurable": {"thread_id": session_id}})
+            workflow = output_state.values.get("workflow", "conversation")
+            response_message = output_state.values["messages"][-1].content
+            logger.info(f"Generated response for {workflow}: {response_message[:80]}...")
 
+            if workflow == "audio":
+                audio_buffer = output_state.values["audio_buffer"]
+                success = await send_response(from_number, response_message, "audio", audio_buffer)
+            elif workflow == "image":
+                image_path = output_state.values["image_path"]
+                with open(image_path, "rb") as f:
+                    image_data = f.read()
+                success = await send_response(from_number, response_message, "image", image_data)
+                if os.path.exists(image_path):
+                    os.remove(image_path)
+            else:
+                success = await send_response(from_number, response_message, "text")
 
-        workflow = output_state.values.get("workflow", "conversation")
-        response_message = output_state.values["messages"][-1].content
+            if not success:
+                logger.error("Failed to send WhatsApp response.")
+                return Response(content="Failed to send message", status_code=500)
 
-        if workflow == "audio":
-            audio_buffer = output_state.values["audio_buffer"]
-            success = await send_response(from_number, response_message, "audio", audio_buffer)
-        elif workflow == "image":
-            image_path = output_state.values["image_path"]
-            with open(image_path, "rb") as f:
-                image_data = f.read()
-            success = await send_response(from_number, response_message, "image", image_data)
+            return Response(content="Message processed", status_code=200)
 
-            if os.path.exists(image_path):
-                os.remove(image_path)
-
-        else:
-            success = await send_response(from_number, response_message, "text")
-
-        if not success:
-            return Response(content="Failed to send message", status_code=500)
-            
-        return Response(content="Message processed", status_code=200)
-        
-    elif "statuses" in change_value:
+        elif "statuses" in change_value:
+            logger.info("Status update received.")
             return Response(content="Status update received", status_code=200)
-        
-    else:
+
+        else:
+            logger.warning("Unknown event type received.")
             return Response(content="Unknown event type", status_code=400)
-        
-    # except Exception as e:
-    #     logger.error(f"Error processing message: {e}", exc_info=True)
-    #     return Response(content="Internal server error", status_code=500)
+
+    except Exception as e:
+        logger.exception("Unhandled exception occurred in /whatsapp_response endpoint.")
+        return Response(content="Internal server error", status_code=500)
