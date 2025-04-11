@@ -1,7 +1,7 @@
 import os
 from langchain_groq import ChatGroq
 import base64
-from langchain_together import CHatTogether
+
 from typing_extensions import Optional
 from langchain_pinecone import PineconeVectorStore
 from langchain_cohere import CohereEmbeddings

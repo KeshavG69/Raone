@@ -759,14 +759,6 @@
         "documentation": {}
     },
     {
-        "label": "CHatTogether",
-        "importPath": "langchain_together",
-        "description": "langchain_together",
-        "isExtraImport": true,
-        "detail": "langchain_together",
-        "documentation": {}
-    },
-    {
         "label": "CohereEmbeddings",
         "importPath": "langchain_cohere",
         "description": "langchain_cohere",
