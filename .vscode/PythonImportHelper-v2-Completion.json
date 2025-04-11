@@ -1102,7 +1102,7 @@
         "kind": 5,
         "importPath": "settings",
         "description": "settings",
-        "peekOfCode": "ROUTER_MESSAGES_TO_ANALYZE = 3\nMEMORY_TOP_K = 3\nSIMILARITY_THRESHOLD=0.9\nTOTAL_MESSAGES_AFTER_SUMMARY=5\nTOTAL_MESSAGES_SUMMARY_TRIGGER=20",
+        "peekOfCode": "ROUTER_MESSAGES_TO_ANALYZE = 3\nMEMORY_TOP_K = 3\nSIMILARITY_THRESHOLD=0.9\nTOTAL_MESSAGES_AFTER_SUMMARY=5\nTOTAL_MESSAGES_SUMMARY_TRIGGER=10",
         "detail": "settings",
         "documentation": {}
     },
@@ -1111,7 +1111,7 @@
         "kind": 5,
         "importPath": "settings",
         "description": "settings",
-        "peekOfCode": "MEMORY_TOP_K = 3\nSIMILARITY_THRESHOLD=0.9\nTOTAL_MESSAGES_AFTER_SUMMARY=5\nTOTAL_MESSAGES_SUMMARY_TRIGGER=20",
+        "peekOfCode": "MEMORY_TOP_K = 3\nSIMILARITY_THRESHOLD=0.9\nTOTAL_MESSAGES_AFTER_SUMMARY=5\nTOTAL_MESSAGES_SUMMARY_TRIGGER=10",
         "detail": "settings",
         "documentation": {}
     },
