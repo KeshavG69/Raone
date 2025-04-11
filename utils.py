@@ -15,7 +15,7 @@ load_dotenv()
 def get_chat_model(temp=0.2):
 
   return ChatTogether(
-      model='meta-llama/Llama-3.3-70B-Instruct-Turbo-Free',
+      model='meta-llama/Llama-3.3-70B-Instruct-Turbo',
       temperature=temp,
       api_key=os.getenv('TOGETHER_504')
     )
