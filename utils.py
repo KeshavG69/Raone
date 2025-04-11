@@ -1,6 +1,7 @@
 import os
 from langchain_groq import ChatGroq
 import base64
+from langchain_together import ChatTogether
 from typing_extensions import Optional
 from langchain_pinecone import PineconeVectorStore
 from langchain_cohere import CohereEmbeddings
@@ -13,10 +14,10 @@ load_dotenv()
 
 def get_chat_model(temp=0.2):
 
-  return ChatGroq(
-      model='llama-3.3-70b-versatile',
+  return ChatTogether(
+      model='meta-llama/Llama-3.3-70B-Instruct-Turbo-Free',
       temperature=temp,
-      api_key=os.getenv('GROQ_API_KEY')
+      api_key=os.getenv('TOGETHER_504')
     )
 
 
