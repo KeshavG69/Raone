@@ -241,7 +241,7 @@ async def summarize_conversation_node(state: AICompanionState):
           "Create a summary of the conversation above between Ra.One and the user. "
           "The summary must be a short description of the conversation so far, "
           "but that captures all the relevant information shared between Ra.One and the user:"
-          "If possible keep the name of the user in the summary "
+          "Make sure to keep the user name in summary at all costs "
       )
 
   messages = state["messages"] + [HumanMessage(content=summary_message)]
