@@ -1139,7 +1139,7 @@
         "kind": 2,
         "importPath": "utils",
         "description": "utils",
-        "peekOfCode": "def get_chat_model(temp=0.2):\n  return ChatGroq(\n      model='llama-3.3-70b-versatile',\n      temperature=temp,\n      api_key=os.getenv('GROQ_API_KEY')\n    )\ndef get_embedding_model():\n  return CohereEmbeddings(\n    model=\"embed-english-v3.0\",\n    cohere_api_key=os.getenv('COHERE_API_KEY')",
+        "peekOfCode": "def get_chat_model(temp=0.2):\n    return ChatGroq(\n        model=\"llama-3.3-70b-versatile\",\n        temperature=temp,\n        api_key=os.getenv(\"GROQ_API_KEY\"),\n    )\ndef get_embedding_model():\n    return CohereEmbeddings(\n        model=\"embed-english-v3.0\", cohere_api_key=os.getenv(\"COHERE_API_KEY\")\n    )",
         "detail": "utils",
         "documentation": {}
     },
@@ -1148,7 +1148,7 @@
         "kind": 2,
         "importPath": "utils",
         "description": "utils",
-        "peekOfCode": "def get_embedding_model():\n  return CohereEmbeddings(\n    model=\"embed-english-v3.0\",\n    cohere_api_key=os.getenv('COHERE_API_KEY')\n)\ndef get_memory_llm(temp=0.2):\n  return ChatGroq(\n    model='gemma2-9b-it',\n    temperature=temp,\n    api_key=os.getenv('GROQ_API_KEY')",
+        "peekOfCode": "def get_embedding_model():\n    return CohereEmbeddings(\n        model=\"embed-english-v3.0\", cohere_api_key=os.getenv(\"COHERE_API_KEY\")\n    )\ndef get_memory_llm(temp=0.2):\n    return ChatGroq(\n        model=\"gemma2-9b-it\", temperature=temp, api_key=os.getenv(\"GROQ_API_KEY\")\n    )\ndef get_image_llm(temp=0.2):\n    return ChatGroq(",
         "detail": "utils",
         "documentation": {}
     },
@@ -1157,7 +1157,7 @@
         "kind": 2,
         "importPath": "utils",
         "description": "utils",
-        "peekOfCode": "def get_memory_llm(temp=0.2):\n  return ChatGroq(\n    model='gemma2-9b-it',\n    temperature=temp,\n    api_key=os.getenv('GROQ_API_KEY')\n  )\ndef get_image_llm(temp=0.2):\n  return ChatGroq(\n    model='llama-3.2-90b-vision-preview',\n    temperature=temp,",
+        "peekOfCode": "def get_memory_llm(temp=0.2):\n    return ChatGroq(\n        model=\"gemma2-9b-it\", temperature=temp, api_key=os.getenv(\"GROQ_API_KEY\")\n    )\ndef get_image_llm(temp=0.2):\n    return ChatGroq(\n        model=\"llama-3.2-90b-vision-preview\",\n        temperature=temp,\n        api_key=os.getenv(\"GROQ_API_KEY\"),\n    )",
         "detail": "utils",
         "documentation": {}
     },
@@ -1166,7 +1166,7 @@
         "kind": 2,
         "importPath": "utils",
         "description": "utils",
-        "peekOfCode": "def get_image_llm(temp=0.2):\n  return ChatGroq(\n    model='llama-3.2-90b-vision-preview',\n    temperature=temp,\n    api_key=os.getenv('GROQ_API_KEY')\n  )\ndef get_create_image_model(temp=0.2):\n  return Together(api_key=os.getenv('TOGETHER_504'))\ndef get_vector_store(INDEX_NAME='long-term-memory'):\n  pc = Pinecone(api_key=os.getenv('PINECONE_API_KEY'))",
+        "peekOfCode": "def get_image_llm(temp=0.2):\n    return ChatGroq(\n        model=\"llama-3.2-90b-vision-preview\",\n        temperature=temp,\n        api_key=os.getenv(\"GROQ_API_KEY\"),\n    )\ndef get_create_image_model(temp=0.2):\n    return Together(api_key=os.getenv(\"TOGETHER_504\"))\ndef get_vector_store(INDEX_NAME=\"long-term-memory\"):\n    pc = Pinecone(api_key=os.getenv(\"PINECONE_API_KEY\"))",
         "detail": "utils",
         "documentation": {}
     },
@@ -1175,7 +1175,7 @@
         "kind": 2,
         "importPath": "utils",
         "description": "utils",
-        "peekOfCode": "def get_create_image_model(temp=0.2):\n  return Together(api_key=os.getenv('TOGETHER_504'))\ndef get_vector_store(INDEX_NAME='long-term-memory'):\n  pc = Pinecone(api_key=os.getenv('PINECONE_API_KEY'))\n  index_name = INDEX_NAME\n  existing_indexes = [index_info[\"name\"] for index_info in pc.list_indexes()]\n  if index_name not in existing_indexes:\n    pc.create_index(\n        name=index_name,\n        dimension=1024,",
+        "peekOfCode": "def get_create_image_model(temp=0.2):\n    return Together(api_key=os.getenv(\"TOGETHER_504\"))\ndef get_vector_store(INDEX_NAME=\"long-term-memory\"):\n    pc = Pinecone(api_key=os.getenv(\"PINECONE_API_KEY\"))\n    index_name = INDEX_NAME\n    existing_indexes = [index_info[\"name\"] for index_info in pc.list_indexes()]\n    if index_name not in existing_indexes:\n        pc.create_index(\n            name=index_name,\n            dimension=1024,",
         "detail": "utils",
         "documentation": {}
     },
@@ -1184,7 +1184,7 @@
         "kind": 2,
         "importPath": "utils",
         "description": "utils",
-        "peekOfCode": "def get_vector_store(INDEX_NAME='long-term-memory'):\n  pc = Pinecone(api_key=os.getenv('PINECONE_API_KEY'))\n  index_name = INDEX_NAME\n  existing_indexes = [index_info[\"name\"] for index_info in pc.list_indexes()]\n  if index_name not in existing_indexes:\n    pc.create_index(\n        name=index_name,\n        dimension=1024,\n        metric=\"cosine\",\n        spec=ServerlessSpec(cloud=\"aws\", region=\"us-east-1\"),",
+        "peekOfCode": "def get_vector_store(INDEX_NAME=\"long-term-memory\"):\n    pc = Pinecone(api_key=os.getenv(\"PINECONE_API_KEY\"))\n    index_name = INDEX_NAME\n    existing_indexes = [index_info[\"name\"] for index_info in pc.list_indexes()]\n    if index_name not in existing_indexes:\n        pc.create_index(\n            name=index_name,\n            dimension=1024,\n            metric=\"cosine\",\n            spec=ServerlessSpec(cloud=\"aws\", region=\"us-east-1\"),",
         "detail": "utils",
         "documentation": {}
     },
@@ -1202,7 +1202,7 @@
         "kind": 5,
         "importPath": "whatsapp_response",
         "description": "whatsapp_response",
-        "peekOfCode": "checkpointer = MemorySaver()\nlogging.basicConfig(\n    level=logging.INFO,\n    format=\"%(asctime)s - %(levelname)s - %(message)s\"\n)\nlogger = logging.getLogger(__name__)\nspeech_to_text = SpeechToText()\ntext_to_speech = TextToSpeech()\nwhatsapp_router = APIRouter()\nWHATSAPP_TOKEN = os.getenv(\"WHATSAPP_TOKEN\")",
+        "peekOfCode": "checkpointer = MemorySaver()\nlogging.basicConfig(\n    level=logging.INFO,\n    format=\"%(asctime)s - %(levelname)s - %(message)s\"\n)\nlogger = logging.getLogger(__name__)\n# must enter API key\nos.environ[\"LANGCHAIN_API_KEY\"] = os.getenv('LANGCHAIN_API_KEY')\n# below should not be changed\nos.environ[\"LANGCHAIN_TRACING_V2\"] = \"true\"",
         "detail": "whatsapp_response",
         "documentation": {}
     },
@@ -1211,7 +1211,43 @@
         "kind": 5,
         "importPath": "whatsapp_response",
         "description": "whatsapp_response",
-        "peekOfCode": "logger = logging.getLogger(__name__)\nspeech_to_text = SpeechToText()\ntext_to_speech = TextToSpeech()\nwhatsapp_router = APIRouter()\nWHATSAPP_TOKEN = os.getenv(\"WHATSAPP_TOKEN\")\nWHATSAPP_PHONE_NUMBER_ID = os.getenv(\"WHATSAPP_PHONE_NUMBER_ID\")\nWHATSAPP_VERIFY_TOKEN=os.getenv(\"WHATSAPP_VERIFY_TOKEN\")\nconnection_kwargs = {\n    \"autocommit\": True,\n    \"prepare_threshold\": 0,",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# must enter API key\nos.environ[\"LANGCHAIN_API_KEY\"] = os.getenv('LANGCHAIN_API_KEY')\n# below should not be changed\nos.environ[\"LANGCHAIN_TRACING_V2\"] = \"true\"\nos.environ[\"LANGCHAIN_ENDPOINT\"] = \"https://api.smith.langchain.com\"\n# you can change this as preferred\nos.environ[\"LANGCHAIN_PROJECT\"] = \"raone\"\nspeech_to_text = SpeechToText()\ntext_to_speech = TextToSpeech()",
+        "detail": "whatsapp_response",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"LANGCHAIN_API_KEY\"]",
+        "kind": 5,
+        "importPath": "whatsapp_response",
+        "description": "whatsapp_response",
+        "peekOfCode": "os.environ[\"LANGCHAIN_API_KEY\"] = os.getenv('LANGCHAIN_API_KEY')\n# below should not be changed\nos.environ[\"LANGCHAIN_TRACING_V2\"] = \"true\"\nos.environ[\"LANGCHAIN_ENDPOINT\"] = \"https://api.smith.langchain.com\"\n# you can change this as preferred\nos.environ[\"LANGCHAIN_PROJECT\"] = \"raone\"\nspeech_to_text = SpeechToText()\ntext_to_speech = TextToSpeech()\nwhatsapp_router = APIRouter()\nWHATSAPP_TOKEN = os.getenv(\"WHATSAPP_TOKEN\")",
+        "detail": "whatsapp_response",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"LANGCHAIN_TRACING_V2\"]",
+        "kind": 5,
+        "importPath": "whatsapp_response",
+        "description": "whatsapp_response",
+        "peekOfCode": "os.environ[\"LANGCHAIN_TRACING_V2\"] = \"true\"\nos.environ[\"LANGCHAIN_ENDPOINT\"] = \"https://api.smith.langchain.com\"\n# you can change this as preferred\nos.environ[\"LANGCHAIN_PROJECT\"] = \"raone\"\nspeech_to_text = SpeechToText()\ntext_to_speech = TextToSpeech()\nwhatsapp_router = APIRouter()\nWHATSAPP_TOKEN = os.getenv(\"WHATSAPP_TOKEN\")\nWHATSAPP_PHONE_NUMBER_ID = os.getenv(\"WHATSAPP_PHONE_NUMBER_ID\")\nWHATSAPP_VERIFY_TOKEN=os.getenv(\"WHATSAPP_VERIFY_TOKEN\")",
+        "detail": "whatsapp_response",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"LANGCHAIN_ENDPOINT\"]",
+        "kind": 5,
+        "importPath": "whatsapp_response",
+        "description": "whatsapp_response",
+        "peekOfCode": "os.environ[\"LANGCHAIN_ENDPOINT\"] = \"https://api.smith.langchain.com\"\n# you can change this as preferred\nos.environ[\"LANGCHAIN_PROJECT\"] = \"raone\"\nspeech_to_text = SpeechToText()\ntext_to_speech = TextToSpeech()\nwhatsapp_router = APIRouter()\nWHATSAPP_TOKEN = os.getenv(\"WHATSAPP_TOKEN\")\nWHATSAPP_PHONE_NUMBER_ID = os.getenv(\"WHATSAPP_PHONE_NUMBER_ID\")\nWHATSAPP_VERIFY_TOKEN=os.getenv(\"WHATSAPP_VERIFY_TOKEN\")\nconnection_kwargs = {",
+        "detail": "whatsapp_response",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"LANGCHAIN_PROJECT\"]",
+        "kind": 5,
+        "importPath": "whatsapp_response",
+        "description": "whatsapp_response",
+        "peekOfCode": "os.environ[\"LANGCHAIN_PROJECT\"] = \"raone\"\nspeech_to_text = SpeechToText()\ntext_to_speech = TextToSpeech()\nwhatsapp_router = APIRouter()\nWHATSAPP_TOKEN = os.getenv(\"WHATSAPP_TOKEN\")\nWHATSAPP_PHONE_NUMBER_ID = os.getenv(\"WHATSAPP_PHONE_NUMBER_ID\")\nWHATSAPP_VERIFY_TOKEN=os.getenv(\"WHATSAPP_VERIFY_TOKEN\")\nconnection_kwargs = {\n    \"autocommit\": True,\n    \"prepare_threshold\": 0,",
         "detail": "whatsapp_response",
         "documentation": {}
     },

@@ -27,6 +27,16 @@ logger = logging.getLogger(__name__)
 
 
 
+# must enter API key
+os.environ["LANGCHAIN_API_KEY"] = os.getenv('LANGCHAIN_API_KEY')
+
+# below should not be changed
+os.environ["LANGCHAIN_TRACING_V2"] = "true"
+os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
+# you can change this as preferred
+os.environ["LANGCHAIN_PROJECT"] = "raone"
+
+
 speech_to_text = SpeechToText()
 text_to_speech = TextToSpeech()
 
