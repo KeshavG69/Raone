@@ -72,7 +72,7 @@ async def memory_extraction_node(state: AICompanionState):
 #   print('memory_extraction_node'.upper())
 #   print('OUTPUT')
 #   print(analysis)
-  if analysis.is_important and analysis.formatted_memory:
+  if analysis.is_important.lower() == 'true' and analysis.formatted_memory:
     results = vector_store.similarity_search_with_score(query=analysis.formatted_memory,k=1)
 
     if results:
