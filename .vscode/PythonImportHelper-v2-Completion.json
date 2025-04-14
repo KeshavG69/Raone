@@ -1147,7 +1147,7 @@
         "kind": 2,
         "importPath": "utils",
         "description": "utils",
-        "peekOfCode": "def get_chat_model(temp=0.2):\n    return ChatGroq(\n        model=\"llama-3.3-70b-versatile\",\n        temperature=temp,\n        api_key=os.getenv(\"GROQ_API_KEY\"),\n    )\ndef get_embedding_model():\n    return OpenAIEmbeddings(\n        model='text-embedding-3-small'\n         api_key=os.getenv(\"OPENAI_API_KEY\")",
+        "peekOfCode": "def get_chat_model(temp=0.2):\n    return ChatGroq(\n        model=\"llama-3.3-70b-versatile\",\n        temperature=temp,\n        api_key=os.getenv(\"GROQ_API_KEY\"),\n    )\ndef get_embedding_model():\n    return OpenAIEmbeddings(\n        model='text-embedding-3-small',\n         api_key=os.getenv(\"OPENAI_API_KEY\")",
         "detail": "utils",
         "documentation": {}
     },
@@ -1156,7 +1156,7 @@
         "kind": 2,
         "importPath": "utils",
         "description": "utils",
-        "peekOfCode": "def get_embedding_model():\n    return OpenAIEmbeddings(\n        model='text-embedding-3-small'\n         api_key=os.getenv(\"OPENAI_API_KEY\")\n    )\ndef get_memory_llm(temp=0.2):\n    return ChatGroq(\n        model=\"gemma2-9b-it\", temperature=temp, api_key=os.getenv(\"GROQ_API_KEY\")\n    )\ndef get_image_llm(temp=0.2):",
+        "peekOfCode": "def get_embedding_model():\n    return OpenAIEmbeddings(\n        model='text-embedding-3-small',\n         api_key=os.getenv(\"OPENAI_API_KEY\")\n    )\ndef get_memory_llm(temp=0.2):\n    return ChatGroq(\n        model=\"gemma2-9b-it\", temperature=temp, api_key=os.getenv(\"GROQ_API_KEY\")\n    )\ndef get_image_llm(temp=0.2):",
         "detail": "utils",
         "documentation": {}
     },

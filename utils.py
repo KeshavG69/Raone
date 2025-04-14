@@ -23,7 +23,7 @@ def get_chat_model(temp=0.2):
 
 def get_embedding_model():
     return OpenAIEmbeddings(
-        model='text-embedding-3-small'
+        model='text-embedding-3-small',
          api_key=os.getenv("OPENAI_API_KEY")
     )
 
