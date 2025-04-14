@@ -1,7 +1,7 @@
 import os
 from langchain_groq import ChatGroq
 import base64
-
+from langchain_openai import OpenAIEmbeddings
 from typing_extensions import Optional
 from langchain_pinecone import PineconeVectorStore
 from langchain_cohere import CohereEmbeddings
@@ -22,8 +22,9 @@ def get_chat_model(temp=0.2):
 
 
 def get_embedding_model():
-    return CohereEmbeddings(
-        model="embed-english-v3.0", cohere_api_key=os.getenv("COHERE_API_KEY")
+    return OpenAIEmbeddings(
+        model='text-embedding-3-small'
+         api_key=os.getenv("OPENAI_API_KEY")
     )
 
 
@@ -52,7 +53,7 @@ def get_vector_store(INDEX_NAME="long-term-memory"):
     if index_name not in existing_indexes:
         pc.create_index(
             name=index_name,
-            dimension=1024,
+            dimension=1536,
             metric="cosine",
             spec=ServerlessSpec(cloud="aws", region="us-east-1"),
         )
